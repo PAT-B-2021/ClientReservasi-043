@@ -104,5 +104,12 @@ namespace ClientReservasi_043
             btSimpan.Enabled = false;
             textBoxID.Enabled = false;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Login lg = new Login();
+            this.Hide();
+            lg.Show();
+        }
     }
 }
